@@ -8,6 +8,9 @@ Even if your administrators have disabled Private/Incognito mode and deleting yo
 If sites have their X-Frame-Origins setting set to `deny` or `sameorigin`, it will not load. This is something set by the site owners. You can check in your browser's console:
 ![](https://i.dis.gg/nav8c7f.png)
 
+### Can I visit blocked sites with Frame?
+No, sites blocked on your network will not load. If it's not blocked for you, you can try [browserling](https://browserling.com), but their free plan will only give you 3 minutes of use at a time.
+
 ### Why default to Bing and not Google?
 Google has their X-Frame-Origins set to `sameorigin`.
 
