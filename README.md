@@ -2,7 +2,7 @@
 Frame embeds sites in a full-page iframe, so you can go to a site, and it wont be logged in your history! Only Frame will be logged in the history. It defaults to Bing, so you can search for any site.
 
 ### Why is this useful?
-If your administrators have disabled Private/Incognito mode, and deleting your browser history, Frame will let you visit sites undetected.
+Even if your administrators have disabled Private/Incognito mode and deleting your browser history, Frame will let you visit sites undetected.
 
 ### halp some sites are just showing a white screen whyyyyyyy
 If sites have their X-Frame-Origins setting set to `deny` or `sameorigin`, it will not load. This is something set by the site owners. You can check in your browser's console:
